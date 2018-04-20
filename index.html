@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<!-- title -->
-	<title><!-- Insert Title Here --> </title>
+	<title> Bootstrap Exercise </title>
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 	<!-- animate.css -->
@@ -12,8 +12,90 @@
 	<!-- custom CSS -->
 	<link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-	
+
+<!-- navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-warning">
+		<div class="container">
+  <a class="navbar-brand" href="#">Bootstrap Excercise</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="https://getbootstrap.com/docs/4.1/components/buttons/">Buttons <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://getbootstrap.com/docs/4.1/components/jumbotron/">Jumbotron</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="https://getbootstrap.com/docs/4.1/components/carousel/">Carousel</a>
+          <a class="dropdown-item" href="https://getbootstrap.com/docs/4.1/components/popovers/">Popovers</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="https://getbootstrap.com/docs/4.1/components/modal/">Modal</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</div>
+</nav>
+
+<!-- jumbotron -->
+<div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">We love Bootstrap because it makes our lives much easier when it comes to working with and in CSS!</p>
+  <hr class="my-4">
+  <p>WE LOVE BOOOOOTSTRAP!!!</p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+
+<!-- container  -->
+<div class="container">
+	<div class="row pb-10 text-center">
+
+		<div class="col-3 mx-auto">
+			<h2>Target</h2>
+			<img class="img-fluid d-block mx-auto" src="img/target.png" >
+			<a href="https://www.target.com/" target="_blank"><button type="button" class="btn btn-primary my-5">Learn More!</button></a>
+		</div>
+
+		<div class="col-3 mx-auto">
+			<h2>Pintrest</h2>
+			<img class="img-fluid d-block mx-auto" src="img/pintrest.png">
+			<a href="https://www.pinterest.com/" target="_blank" "><button type="button" class="btn btn-primary my-5">Learn More!</button></a>
+		</div>
+
+		</div>
+
+		<div class="col-3 mx-auto">
+			<h2>Instagram</h2>
+			<img class="img-fluid d-block mx-auto" src="img/instagram.png">
+			<a href="https://www.instagram.com/" target="_blank"><button type="button" class="btn btn-primary my-5">Learn More!</button></a>
+		</div>
+
+	</div>
+</div>
+
+
+
+
+
+
+
 
 <!-- SCRIPTS -->
 
